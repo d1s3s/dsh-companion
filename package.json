@@ -1,0 +1,51 @@
+{
+  "name": "dsh-companion",
+  "version": "0.3.0",
+  "description": "陪伴型插件：长期记忆、能自己刷视频并收集资讯、能评论（默认只准备不发送）、看屏幕、开摄像头、发消息。权限逐项授予并可随时收回。核心与宿主解耦，可跑在 DSH 插件或 MCP server（Claude Desktop / Cursor / Cline 等）上，形象可运行时更换",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./client": "./client/client.cjs"
+  },
+  "files": [
+    "src",
+    "client/client.cjs",
+    "packs",
+    "tools",
+    "test",
+    "skills",
+    "cordis.patch.yml",
+    "README.md",
+    "PERMISSIONS.md",
+    "CHARACTER.md",
+    "BROWSING.md",
+    "LICENSE",
+    "adapters",
+    "ADAPTERS.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "cordis.patch.yml"
+    },
+    "client": "./client/client.cjs"
+  },
+  "scripts": {
+    "test": "node test/smoke.mjs",
+    "doctor": "node test/doctor.mjs",
+    "test:mcp": "node test/mcp.test.mjs",
+    "test:policy": "node test/policy.test.mjs",
+    "gallery": "node tools/gallery.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "companion",
+    "memory",
+    "permission"
+  ],
+  "license": "MIT"
+}

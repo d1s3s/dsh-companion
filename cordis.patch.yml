@@ -1,0 +1,62 @@
+# cordis.patch.yml —— 插件装进 profile 的方式
+#
+# 这是「把包插进正在运行的 Cordis 插件树」的那一层。
+# 结构是顶层 YAML 数组，每项只有 insert 和 override 两种操作。
+#
+# 注意两个坑：
+#   1) config 是整行替换，不是深合并。只改一个字段也要把其余字段一起写出来。
+#   2) name 对不上目标行时，加载器只警告、该条不生效——排查「装了但没生效」先看这里。
+#
+# memoryDir 留空则用默认 ~/.dsh-companion/memory；
+# 想接到已有的记忆库（比如用 mem.py 维护的那套），在这里填绝对路径。
+
+- insert:
+    - id: dsh-companion
+      name: ./src/index.js
+      config:
+        profile: tender
+        memoryDir: ''
+        home: ''
+        webhook: ''
+        # 角色包：留空用内置那只手绘鲸鱼；填绝对路径/相对插件目录就能换成
+        # dsh-pet v1 角色包。自带两个：
+        #   packs/bigfish-classic  大肥鱼·内置（60 个动作、6 张图集）
+        #   packs/bigfish-adult    大肥鱼·成年版（8 组动作）
+        characterPack: packs/bigfish-classic
+        characterSize: 170      # 桌宠像素宽，170 大约占屏幕高度的 1/6
+        pricePerMTokens: 2      # 元 / 百万 token，按你的价目填
+        tokensPerBowl: 1000     # 一碗白饭换多少 token
+        hud: always             # always 常驻显示 / hover 只悬停显示（双击角色可随时切换）
+
+        # ---- 她自己刷视频 ----
+        #
+        # 她会用一个**独立的浏览器 profile**（~/.dsh-companion/browser），
+        # 不碰你自己那个 Edge。第一次会在那个窗口里要求扫码登录一次，
+        # 之后登录态就留在那儿。删掉那个目录 = 她忘掉所有登录。
+        browserPort: 9222
+        # browserProfile: ''    # 留空就是上面那个默认位置
+
+        # 这四道闸任何一道不合，她就不会自己开始刷。
+        # 运行时可以用 companion_browse_settings 改，改完立刻生效、不必重装。
+        browse:
+          enabled: false                    # 总开关。出厂关着
+          sites: [bilibili, douyin]         # 允许刷哪些（还有 xiaohongshu / kuaishou）
+          windows:                          # 允许时段。跨午夜写 "22:00-01:30"
+            - '12:30-13:30'
+            - '21:30-23:30'
+          perSessionMinutes: 15             # 单次最长
+          perDayMinutes: 45                 # 每天总共
+          minGapMinutes: 90                 # 两次之间至少隔多久
+          comment:                          # 评论是独立的一套闸
+            enabled: false                  # 评论总开关。和「能刷」分开
+            maxPerDay: 3
+            maxPerSession: 1
+            requireApproval: true           # 发出去之前必须你点头。别关
+            maxChars: 40                    # 短一点更像真人
+            avoid:                          # 不碰的话题，宁可少说一句
+              - 政治
+              - 医疗
+              - 灾难事故
+              - 身材评价
+              - 收入
+              - 宗教

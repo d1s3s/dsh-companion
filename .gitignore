@@ -1,0 +1,33 @@
+# 临时目录：抓到的帧、构建输入、测试现场都在这儿
+.tmp/
+.tmp-*
+.tmp/*.png
+.tmp/*.jpg
+
+# 形象总览页是构建产物（引用 12 MB 图集 + 长截图），不进版本库
+# 需要就自己生成：node tools/gallery.mjs
+preview/
+
+# 客户端自带预览页（client/build-preview.mjs 的产物，内联 base64 图集）
+client/preview.html
+
+# 运行时数据：权限、记忆、token 账本、浏览器的登录态
+# 这些是本机私密数据，永远不进仓库
+.dsh-companion/
+*.local.json
+permissions.json
+ledger.json
+audit.jsonl
+mention.json
+
+# 依赖与系统垃圾
+node_modules/
+npm-debug.log*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp

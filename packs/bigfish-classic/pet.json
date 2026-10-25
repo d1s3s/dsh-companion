@@ -1,0 +1,61 @@
+{
+  "format": "dsh-pet",
+  "formatVersion": 1,
+  "id": "bigfish-classic",
+  "name": "大肥鱼 · 内置",
+  "version": "0.6.0",
+  "author": "gosomea / dsh-bigfish（转换：dsh-companion）",
+  "description": "60 个动作、6 张图集，来自 dsh-bigfish 内置大肥鱼。蓝发、鲸鱼尾巴、围裙。",
+  "license": "角色美术版权归上游作者，代码 MIT；个人使用，分发自行确认授权",
+  "canvas": {
+    "width": 222,
+    "height": 222
+  },
+  "scale": 0.5,
+  "assets": {
+    "classic": {
+      "path": "assets/classic.png",
+      "width": 724,
+      "height": 543
+    },
+    "motions": {
+      "path": "assets/motions.png",
+      "width": 627,
+      "height": 627
+    },
+    "signs": {
+      "path": "assets/signs.png",
+      "width": 615,
+      "height": 639
+    },
+    "work": {
+      "path": "assets/work.png",
+      "width": 887,
+      "height": 443
+    },
+    "quiet": {
+      "path": "assets/quiet.png",
+      "width": 887,
+      "height": 443
+    },
+    "daily": {
+      "path": "assets/daily.png",
+      "width": 724,
+      "height": 543
+    }
+  },
+  "thumbnail": "assets/classic.png",
+  "animations": "animations.json",
+  "dialogue": "dialogue.json",
+  "fallbacks": {
+    "greeting": "bigfish:rest-wave",
+    "idle": "bigfish:rest-calm",
+    "thinking": "bigfish:desk-thinking",
+    "writing": "bigfish:treadmill-focused",
+    "working": "bigfish:treadmill-focused",
+    "tool": "bigfish:workshop-repair",
+    "wait": "bigfish:rest-wait-sign",
+    "success": "bigfish:delivery-happy",
+    "error": "bigfish:workshop-confused"
+  }
+}

@@ -1,0 +1,4889 @@
+[
+  {
+    "id": "bigfish:calm",
+    "label": "书桌·安静呼吸",
+    "tags": [
+      "awaiting-output",
+      "idle"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          222,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          444,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          222,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      }
+    ]
+  },
+  {
+    "id": "bigfish:hug-tail",
+    "label": "书桌·抱着尾巴",
+    "tags": [
+      "awaiting-output",
+      "idle"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          543,
+          180,
+          181,
+          180
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:thinking",
+    "label": "书桌·想一想",
+    "tags": [
+      "awaiting-output",
+      "idle",
+      "reasoning",
+      "thinking"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          222,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          444,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          444,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      }
+    ]
+  },
+  {
+    "id": "bigfish:focused",
+    "label": "书桌·专注冲刺",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          157,
+          157,
+          155
+        ],
+        "durationMs": 200
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          157,
+          157,
+          159,
+          155
+        ],
+        "durationMs": 200
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          157,
+          157,
+          155
+        ],
+        "durationMs": 200
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          316,
+          157,
+          157,
+          155
+        ],
+        "durationMs": 200
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          157,
+          157,
+          155
+        ],
+        "durationMs": 200
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          473,
+          157,
+          155,
+          155
+        ],
+        "durationMs": 200
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          473,
+          157,
+          155,
+          155
+        ],
+        "durationMs": 200
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          157,
+          157,
+          155
+        ],
+        "durationMs": 200
+      }
+    ]
+  },
+  {
+    "id": "bigfish:nervous",
+    "label": "书桌·有点紧张",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          1,
+          180,
+          181,
+          180
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:pout",
+    "label": "书桌·嘟嘴整理",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          181,
+          180,
+          185,
+          180
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:dodge",
+    "label": "书桌·躲一下",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          312,
+          159,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          159,
+          312,
+          160,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          319,
+          312,
+          152,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          470,
+          312,
+          157,
+          149
+        ],
+        "durationMs": 250
+      }
+    ]
+  },
+  {
+    "id": "bigfish:dizzy",
+    "label": "书桌·转晕了",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          188,
+          360,
+          174,
+          184
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:wipe",
+    "label": "书桌·擦擦汗",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "daily",
+        "rect": [
+          1,
+          183,
+          192,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          192,
+          183,
+          180,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          372,
+          183,
+          181,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          192,
+          183,
+          180,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          372,
+          183,
+          181,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          192,
+          183,
+          180,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          552,
+          183,
+          172,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          552,
+          183,
+          172,
+          179
+        ],
+        "durationMs": 500
+      }
+    ]
+  },
+  {
+    "id": "bigfish:look-back",
+    "label": "书桌·回头看",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap",
+      "awaiting-output",
+      "idle"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          157,
+          157,
+          155
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          312,
+          159,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          470,
+          312,
+          157,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          157,
+          157,
+          155
+        ],
+        "durationMs": 250
+      }
+    ]
+  },
+  {
+    "id": "bigfish:panic",
+    "label": "书桌·慌了",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap",
+      "awaiting-output",
+      "idle"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          312,
+          159,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          159,
+          312,
+          160,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          312,
+          159,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          159,
+          312,
+          160,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          319,
+          312,
+          152,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          470,
+          312,
+          157,
+          149
+        ],
+        "durationMs": 250
+      }
+    ]
+  },
+  {
+    "id": "bigfish:stamp",
+    "label": "书桌·盖章确认",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap",
+      "awaiting-output",
+      "idle"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          362,
+          360,
+          181,
+          184
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:stumble",
+    "label": "书桌·绊了一下",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap",
+      "awaiting-output",
+      "idle"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          188,
+          360,
+          174,
+          184
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:library-calm",
+    "label": "书架·安静呼吸",
+    "tags": [
+      "awaiting-output",
+      "idle"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          222,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          444,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          222,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      }
+    ]
+  },
+  {
+    "id": "bigfish:library-hug-tail",
+    "label": "书架·抱着尾巴",
+    "tags": [
+      "awaiting-output",
+      "idle"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          543,
+          180,
+          181,
+          180
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:library-thinking",
+    "label": "书架·想一想",
+    "tags": [
+      "awaiting-output",
+      "idle",
+      "reasoning",
+      "thinking"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          222,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          444,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          444,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      }
+    ]
+  },
+  {
+    "id": "bigfish:library-focused",
+    "label": "书架·专注冲刺",
+    "tags": [
+      "reasoning",
+      "thinking"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          157,
+          157,
+          155
+        ],
+        "durationMs": 200
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          157,
+          157,
+          159,
+          155
+        ],
+        "durationMs": 200
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          157,
+          157,
+          155
+        ],
+        "durationMs": 200
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          316,
+          157,
+          157,
+          155
+        ],
+        "durationMs": 200
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          157,
+          157,
+          155
+        ],
+        "durationMs": 200
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          473,
+          157,
+          155,
+          155
+        ],
+        "durationMs": 200
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          473,
+          157,
+          155,
+          155
+        ],
+        "durationMs": 200
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          157,
+          157,
+          155
+        ],
+        "durationMs": 200
+      }
+    ]
+  },
+  {
+    "id": "bigfish:library-nervous",
+    "label": "书架·有点紧张",
+    "tags": [
+      "reasoning",
+      "thinking"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          1,
+          180,
+          181,
+          180
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:library-pout",
+    "label": "书架·嘟嘴整理",
+    "tags": [
+      "reasoning",
+      "thinking"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          181,
+          180,
+          185,
+          180
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:library-dodge",
+    "label": "书架·躲一下",
+    "tags": [
+      "reasoning",
+      "thinking"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          312,
+          159,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          159,
+          312,
+          160,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          319,
+          312,
+          152,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          470,
+          312,
+          157,
+          149
+        ],
+        "durationMs": 250
+      }
+    ]
+  },
+  {
+    "id": "bigfish:library-dizzy",
+    "label": "书架·转晕了",
+    "tags": [
+      "reasoning",
+      "thinking"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          188,
+          360,
+          174,
+          184
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:library-wipe",
+    "label": "书架·擦擦汗",
+    "tags": [
+      "reasoning",
+      "thinking"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "daily",
+        "rect": [
+          1,
+          183,
+          192,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          192,
+          183,
+          180,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          372,
+          183,
+          181,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          192,
+          183,
+          180,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          372,
+          183,
+          181,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          192,
+          183,
+          180,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          552,
+          183,
+          172,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          552,
+          183,
+          172,
+          179
+        ],
+        "durationMs": 500
+      }
+    ]
+  },
+  {
+    "id": "bigfish:book",
+    "label": "书架·翻书",
+    "tags": [
+      "reasoning",
+      "thinking"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 3,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          222,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          444,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          444,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      }
+    ]
+  },
+  {
+    "id": "bigfish:peek",
+    "label": "书架·探头看",
+    "tags": [
+      "reasoning",
+      "thinking",
+      "awaiting-output",
+      "idle"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          368,
+          1,
+          175,
+          180
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:tea",
+    "label": "书架·喝口茶",
+    "tags": [
+      "reasoning",
+      "thinking",
+      "awaiting-output",
+      "idle"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "daily",
+        "rect": [
+          1,
+          1,
+          190,
+          183
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          190,
+          1,
+          180,
+          183
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          370,
+          1,
+          178,
+          183
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          370,
+          1,
+          178,
+          183
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          370,
+          1,
+          178,
+          183
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          190,
+          1,
+          180,
+          183
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          548,
+          1,
+          176,
+          183
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          548,
+          1,
+          176,
+          183
+        ],
+        "durationMs": 500
+      }
+    ]
+  },
+  {
+    "id": "bigfish:repair",
+    "label": "工作台·修东西",
+    "tags": [
+      "tool-running",
+      "tool",
+      "working"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          222,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          444,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          444,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          444,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          665,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          665,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      }
+    ]
+  },
+  {
+    "id": "bigfish:confused",
+    "label": "工作台·有点迷糊",
+    "tags": [
+      "failed",
+      "error"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          368,
+          1,
+          175,
+          180
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:wiping",
+    "label": "工作台·擦桌子",
+    "tags": [
+      "tool-running",
+      "tool",
+      "working"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "daily",
+        "rect": [
+          1,
+          183,
+          192,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          192,
+          183,
+          180,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          372,
+          183,
+          181,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          192,
+          183,
+          180,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          372,
+          183,
+          181,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          192,
+          183,
+          180,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          552,
+          183,
+          172,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          552,
+          183,
+          172,
+          179
+        ],
+        "durationMs": 500
+      }
+    ]
+  },
+  {
+    "id": "bigfish:workshop-look-back",
+    "label": "工作台·回头看",
+    "tags": [
+      "tool-running",
+      "tool",
+      "working"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          157,
+          157,
+          155
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          312,
+          159,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          470,
+          312,
+          157,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          157,
+          157,
+          155
+        ],
+        "durationMs": 250
+      }
+    ]
+  },
+  {
+    "id": "bigfish:stretch",
+    "label": "工作台·伸懒腰",
+    "tags": [
+      "tool-running",
+      "tool",
+      "working"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "daily",
+        "rect": [
+          1,
+          362,
+          189,
+          182
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          189,
+          362,
+          183,
+          182
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          371,
+          362,
+          178,
+          182
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          371,
+          362,
+          178,
+          182
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          371,
+          362,
+          178,
+          182
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          189,
+          362,
+          183,
+          182
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          549,
+          362,
+          175,
+          182
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          549,
+          362,
+          175,
+          182
+        ],
+        "durationMs": 500
+      }
+    ]
+  },
+  {
+    "id": "bigfish:treadmill-thinking",
+    "label": "跑步机·想一想",
+    "tags": [
+      "reasoning",
+      "thinking"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          222,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          444,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          444,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      }
+    ]
+  },
+  {
+    "id": "bigfish:treadmill-focused",
+    "label": "跑步机·专注冲刺",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          543,
+          1,
+          181,
+          180
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:treadmill-nervous",
+    "label": "跑步机·有点紧张",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          1,
+          180,
+          181,
+          180
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:treadmill-pout",
+    "label": "跑步机·嘟嘴整理",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          181,
+          180,
+          185,
+          180
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:treadmill-dodge",
+    "label": "跑步机·躲一下",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          312,
+          159,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          159,
+          312,
+          160,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          319,
+          312,
+          152,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          470,
+          312,
+          157,
+          149
+        ],
+        "durationMs": 250
+      }
+    ]
+  },
+  {
+    "id": "bigfish:treadmill-dizzy",
+    "label": "跑步机·转晕了",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          188,
+          360,
+          174,
+          184
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:treadmill-wipe",
+    "label": "跑步机·擦擦汗",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "daily",
+        "rect": [
+          1,
+          183,
+          192,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          192,
+          183,
+          180,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          372,
+          183,
+          181,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          192,
+          183,
+          180,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          372,
+          183,
+          181,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          192,
+          183,
+          180,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          552,
+          183,
+          172,
+          179
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          552,
+          183,
+          172,
+          179
+        ],
+        "durationMs": 500
+      }
+    ]
+  },
+  {
+    "id": "bigfish:treadmill-stumble",
+    "label": "跑步机·绊了一下",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          188,
+          360,
+          174,
+          184
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:treadmill-panic",
+    "label": "跑步机·慌了",
+    "tags": [
+      "generating",
+      "writing",
+      "working",
+      "reasoning",
+      "thinking",
+      "streaming-gap"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          312,
+          159,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          159,
+          312,
+          160,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          312,
+          159,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          159,
+          312,
+          160,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          319,
+          312,
+          152,
+          149
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          470,
+          312,
+          157,
+          149
+        ],
+        "durationMs": 250
+      }
+    ]
+  },
+  {
+    "id": "bigfish:rest-calm",
+    "label": "休息·安静呼吸",
+    "tags": [
+      "idle",
+      "greeting",
+      "awaiting-output",
+      "retrying",
+      "error",
+      "working",
+      "disconnected",
+      "cancelled",
+      "blocked",
+      "wait",
+      "limited",
+      "interrupted",
+      "unknown-end"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          222,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          444,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          222,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 167
+      }
+    ]
+  },
+  {
+    "id": "bigfish:rest-hug-tail",
+    "label": "休息·抱着尾巴",
+    "tags": [
+      "idle",
+      "greeting",
+      "awaiting-output",
+      "retrying",
+      "error",
+      "working",
+      "disconnected",
+      "cancelled",
+      "blocked",
+      "wait",
+      "limited",
+      "interrupted",
+      "unknown-end"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          543,
+          180,
+          181,
+          180
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:rest-thinking",
+    "label": "休息·想一想",
+    "tags": [
+      "awaiting-output",
+      "idle"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          222,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          444,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          444,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          665,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "work",
+        "rect": [
+          1,
+          1,
+          222,
+          222
+        ],
+        "durationMs": 333
+      }
+    ]
+  },
+  {
+    "id": "bigfish:nap",
+    "label": "休息·打个盹",
+    "tags": [
+      "idle",
+      "greeting"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          543,
+          360,
+          181,
+          184
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:wait-sign",
+    "label": "休息·举牌等你",
+    "tags": [
+      "idle",
+      "greeting"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 3,
+    "cooldownMs": 6000,
+    "frames": [
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          1,
+          157,
+          157
+        ],
+        "durationMs": 400
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          157,
+          1,
+          157,
+          157
+        ],
+        "durationMs": 400
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          314,
+          1,
+          157,
+          157
+        ],
+        "durationMs": 400
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          314,
+          1,
+          157,
+          157
+        ],
+        "durationMs": 400
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          314,
+          1,
+          157,
+          157
+        ],
+        "durationMs": 400
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          314,
+          1,
+          157,
+          157
+        ],
+        "durationMs": 400
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          470,
+          1,
+          157,
+          157
+        ],
+        "durationMs": 400
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          314,
+          1,
+          157,
+          157
+        ],
+        "durationMs": 400
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          314,
+          1,
+          157,
+          157
+        ],
+        "durationMs": 400
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          314,
+          1,
+          157,
+          157
+        ],
+        "durationMs": 400
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          157,
+          1,
+          157,
+          157
+        ],
+        "durationMs": 400
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          1,
+          157,
+          157
+        ],
+        "durationMs": 400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:wave",
+    "label": "休息·招手",
+    "tags": [
+      "idle",
+      "greeting"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          157,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          157,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          314,
+          461,
+          156,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      }
+    ]
+  },
+  {
+    "id": "bigfish:rest-peek",
+    "label": "休息·探头看",
+    "tags": [
+      "idle",
+      "greeting"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          368,
+          1,
+          175,
+          180
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:rest-stretch",
+    "label": "休息·伸懒腰",
+    "tags": [
+      "idle",
+      "greeting"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "daily",
+        "rect": [
+          1,
+          362,
+          189,
+          182
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          189,
+          362,
+          183,
+          182
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          371,
+          362,
+          178,
+          182
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          371,
+          362,
+          178,
+          182
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          371,
+          362,
+          178,
+          182
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          189,
+          362,
+          183,
+          182
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          549,
+          362,
+          175,
+          182
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          549,
+          362,
+          175,
+          182
+        ],
+        "durationMs": 500
+      }
+    ]
+  },
+  {
+    "id": "bigfish:tail-wag",
+    "label": "休息·摇尾巴",
+    "tags": [
+      "idle",
+      "greeting"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          1,
+          1,
+          187,
+          180
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:sigh",
+    "label": "休息·叹口气",
+    "tags": [
+      "cancelled",
+      "error",
+      "idle",
+      "interrupted"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          1,
+          360,
+          188,
+          184
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:rest-tea",
+    "label": "休息·喝口茶",
+    "tags": [
+      "idle",
+      "greeting"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "daily",
+        "rect": [
+          1,
+          1,
+          190,
+          183
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          190,
+          1,
+          180,
+          183
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          370,
+          1,
+          178,
+          183
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          370,
+          1,
+          178,
+          183
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          370,
+          1,
+          178,
+          183
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          190,
+          1,
+          180,
+          183
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          548,
+          1,
+          176,
+          183
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "daily",
+        "rect": [
+          548,
+          1,
+          176,
+          183
+        ],
+        "durationMs": 500
+      }
+    ]
+  },
+  {
+    "id": "bigfish:sign-overhead",
+    "label": "休息·把牌举过头顶",
+    "tags": [
+      "idle",
+      "greeting"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 3,
+    "cooldownMs": 12000,
+    "frames": [
+      {
+        "asset": "signs",
+        "rect": [
+          1,
+          1,
+          156,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          156,
+          1,
+          152,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          308,
+          1,
+          155,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          308,
+          1,
+          155,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          463,
+          1,
+          153,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          308,
+          1,
+          155,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          308,
+          1,
+          155,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          156,
+          1,
+          152,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          1,
+          1,
+          156,
+          170
+        ],
+        "durationMs": 500
+      }
+    ]
+  },
+  {
+    "id": "bigfish:sign-peek",
+    "label": "休息·举牌偷看",
+    "tags": [
+      "idle",
+      "greeting"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 3,
+    "cooldownMs": 12000,
+    "frames": [
+      {
+        "asset": "signs",
+        "rect": [
+          1,
+          170,
+          160,
+          156
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          160,
+          170,
+          148,
+          156
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          308,
+          170,
+          157,
+          156
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          308,
+          170,
+          157,
+          156
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          465,
+          170,
+          151,
+          156
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          308,
+          170,
+          157,
+          156
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          308,
+          170,
+          157,
+          156
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          160,
+          170,
+          148,
+          156
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          1,
+          170,
+          160,
+          156
+        ],
+        "durationMs": 500
+      }
+    ]
+  },
+  {
+    "id": "bigfish:sign-tail",
+    "label": "休息·尾巴帮你举牌",
+    "tags": [
+      "idle",
+      "greeting"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 3,
+    "cooldownMs": 12000,
+    "frames": [
+      {
+        "asset": "signs",
+        "rect": [
+          1,
+          326,
+          154,
+          143
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          154,
+          326,
+          158,
+          143
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          312,
+          326,
+          151,
+          143
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          312,
+          326,
+          151,
+          143
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          463,
+          326,
+          153,
+          143
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          312,
+          326,
+          151,
+          143
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          312,
+          326,
+          151,
+          143
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          154,
+          326,
+          158,
+          143
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          1,
+          326,
+          154,
+          143
+        ],
+        "durationMs": 500
+      }
+    ]
+  },
+  {
+    "id": "bigfish:sign-bounce",
+    "label": "休息·举牌蹦两下",
+    "tags": [
+      "idle",
+      "greeting"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 3,
+    "cooldownMs": 12000,
+    "frames": [
+      {
+        "asset": "signs",
+        "rect": [
+          1,
+          469,
+          156,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          156,
+          469,
+          152,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          308,
+          469,
+          156,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          308,
+          469,
+          156,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          463,
+          469,
+          152,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          308,
+          469,
+          156,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          308,
+          469,
+          156,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          156,
+          469,
+          152,
+          170
+        ],
+        "durationMs": 500
+      },
+      {
+        "asset": "signs",
+        "rect": [
+          1,
+          469,
+          156,
+          170
+        ],
+        "durationMs": 500
+      }
+    ]
+  },
+  {
+    "id": "bigfish:confirm",
+    "label": "休息·等你确认",
+    "tags": [
+      "waiting-user",
+      "wait",
+      "attention"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          1,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          222,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          222,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          444,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          222,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      },
+      {
+        "asset": "quiet",
+        "rect": [
+          665,
+          222,
+          222,
+          222
+        ],
+        "durationMs": 333
+      }
+    ]
+  },
+  {
+    "id": "bigfish:happy",
+    "label": "交付·开心收工",
+    "tags": [
+      "completed",
+      "success"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          157,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          314,
+          461,
+          156,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          470,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      }
+    ]
+  },
+  {
+    "id": "bigfish:delivery",
+    "label": "交付·交付成果",
+    "tags": [
+      "completed",
+      "success"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          157,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          314,
+          461,
+          156,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          470,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      }
+    ]
+  },
+  {
+    "id": "bigfish:relieved",
+    "label": "交付·松一口气",
+    "tags": [
+      "completed",
+      "success"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 3000,
+    "frames": [
+      {
+        "asset": "classic",
+        "rect": [
+          543,
+          360,
+          181,
+          184
+        ],
+        "durationMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "bigfish:bow",
+    "label": "交付·鞠个躬",
+    "tags": [
+      "completed",
+      "success"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          470,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          470,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      }
+    ]
+  },
+  {
+    "id": "bigfish:delivery-wave",
+    "label": "交付·招手",
+    "tags": [
+      "completed",
+      "success"
+    ],
+    "intensity": 0,
+    "loop": true,
+    "weight": 1,
+    "cooldownMs": 5000,
+    "frames": [
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          157,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          157,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          314,
+          461,
+          156,
+          167
+        ],
+        "durationMs": 250
+      },
+      {
+        "asset": "motions",
+        "rect": [
+          1,
+          461,
+          157,
+          167
+        ],
+        "durationMs": 250
+      }
+    ]
+  }
+]
