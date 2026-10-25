@@ -65,7 +65,7 @@ assets/*.png        # 图集
 所以代码分成三层：
 
 ```
-src/companion.js    核心。23 个工具的业务逻辑，不认识任何客户端。
+src/companion.js    核心。25 个工具的业务逻辑，不认识任何客户端。
 src/host.js         宿主适配器。把不同客户端翻译成同一组五个方法。
 src/index.js        DSH 入口。薄薄一层，只有 20 行。
 adapters/mcp.mjs    MCP 入口。stdio JSON-RPC，零依赖。
@@ -158,7 +158,7 @@ const core = buildCompanion(myHost(client), { home, characterPack, profile });
 
 | 能力 | DSH | MCP | 无头（脚本/测试） |
 |---|---|---|---|
-| 23 个工具 | ✅ | ✅ | ✅ |
+| 25 个工具 | ✅ | ✅ | ✅ |
 | 记忆 / 权限 / 账本 | ✅ | ✅ | ✅ |
 | 形象显示 | ✅ 挂在界面上 | ⚠ 只能文字（`companion_character`） | — |
 | token 药丸 | ✅ | ⚠ 靠 `state.latest.usage` | — |
