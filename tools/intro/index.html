@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>dsh-companion · 介绍片</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1280px;height:720px;overflow:hidden}
+  body{background:#F7F8FA;color:#14171c;position:relative;
+    font-family:-apple-system,"Segoe UI","Microsoft YaHei","PingFang SC",sans-serif;
+    -webkit-font-smoothing:antialiased}
+
+  .glow{position:absolute;border-radius:50%;filter:blur(100px)}
+  .g1{width:680px;height:680px;left:-200px;top:-260px;background:#D6E4FF;opacity:.7}
+  .g2{width:600px;height:600px;right:-180px;bottom:-260px;background:#E4DFFF;opacity:.6}
+  .grid{position:absolute;inset:0;opacity:.45;
+    background-image:linear-gradient(#e8ebf0 1px,transparent 1px),
+                     linear-gradient(90deg,#e8ebf0 1px,transparent 1px);
+    background-size:64px 64px;
+    -webkit-mask-image:radial-gradient(circle at 50% 45%,#000 0%,transparent 72%)}
+
+  /* 上升气泡：给静态画面一点“在水里”的感觉 */
+  .bub{position:absolute;border-radius:50%;background:#90B4FF;opacity:.18}
+
+  /* 进度条 */
+  .bar{position:absolute;left:0;bottom:0;height:3px;width:0;
+       background:linear-gradient(90deg,#5C9BFF,#2A5CD6);opacity:.85}
+
+  .scene{position:absolute;inset:0;display:flex;flex-direction:column;
+         align-items:center;justify-content:center;opacity:0}
+  .scene .inner{display:flex;flex-direction:column;align-items:center;width:100%;margin-top:-14px}
+
+  .title{font-size:80px;font-weight:700;letter-spacing:-3px;line-height:1;
+         display:flex;margin-top:24px}
+  .title .l{display:inline-block;opacity:0}
+  .sub{font-size:28px;color:#5b6472;margin-top:22px;letter-spacing:.4px;opacity:0}
+  .sub b{color:#2A5CD6;font-weight:650}
+  .tag{font-size:18px;color:#6b7280;margin-top:13px;opacity:0;letter-spacing:.7px}
+
+  .h{font-size:46px;font-weight:650;letter-spacing:-1.2px;opacity:0;text-align:center}
+  .h em{font-style:normal;color:#C25E3A}
+  .h small{display:block;font-size:19px;font-weight:400;color:#7a8494;
+           letter-spacing:.2px;margin-top:13px}
+
+  .cards{display:flex;gap:26px;margin-top:42px;align-items:stretch}
+  .card{width:446px;padding:28px 34px 32px;border-radius:22px;background:#fff;
+        border:1px solid #e5e8ee;box-shadow:0 14px 40px rgba(20,23,28,.07);
+        opacity:0;transform:translateY(28px)}
+  .card .x{width:34px;height:34px;border-radius:50%;background:#FDECE6;color:#C25E3A;
+           font-size:18px;font-weight:700;display:flex;align-items:center;
+           justify-content:center;margin-bottom:15px}
+  .card h3{font-size:30px;font-weight:680;color:#C25E3A;margin-bottom:9px}
+  .card p{font-size:17px;line-height:1.72;color:#6b7280}
+
+  .moves{display:flex;gap:24px;margin-top:38px;align-items:stretch}
+  .move{width:440px;border-radius:20px;background:#fff;border:1px solid #e5e8ee;
+        padding:26px 30px 30px;opacity:0;transform:translateY(24px)}
+  .move .from{font-size:15.5px;color:#98a0ab}
+  .move .from s{text-decoration-thickness:1.5px}
+  .move .arw{font-size:19px;color:#cfd4db;margin:7px 0}
+  .move .to{font-size:24px;font-weight:650;color:#0E8F72}
+  .move .note{font-size:15.5px;color:#7a8494;margin-top:11px;line-height:1.68}
+  .move .note b{color:#3f4753;font-weight:600}
+
+  .grid4{display:grid;grid-template-columns:repeat(2,446px);gap:18px;margin-top:38px}
+  .cell{display:flex;gap:16px;align-items:center;padding:22px 24px;border-radius:18px;
+        background:#fff;border:1px solid #e5e8ee;opacity:0;transform:translateY(20px)}
+  .cell svg{width:42px;height:42px;flex:0 0 42px}
+  .cell b{display:block;font-size:21px;font-weight:650}
+  .cell span{display:block;font-size:14px;color:#7d8794;margin-top:4px;line-height:1.5}
+
+  .three{display:flex;gap:16px;margin-top:36px;align-items:stretch}
+  .tri{width:330px;padding:24px 24px 26px;border-radius:18px;background:#fff;
+       border:1px solid #e5e8ee;opacity:0;transform:translateY(22px)}
+  .tri .n{font-size:12.5px;letter-spacing:1.6px;color:#b6bcc6;font-weight:600}
+  .tri .big{font-size:33px;font-weight:700;color:#2A5CD6;letter-spacing:-.8px;margin-top:6px}
+  .tri h4{font-size:18px;font-weight:650;margin:9px 0 8px;letter-spacing:-.2px}
+  .tri p{font-size:14px;line-height:1.68;color:#7d8794}
+  .tri p b{color:#3f4753;font-weight:600}
+
+  .pets{display:flex;gap:54px;margin-top:24px}
+  .pet{text-align:center;opacity:0}
+  .pet svg{width:156px;height:auto}
+  .pet i{display:block;font-style:normal;font-size:14px;color:#7d8794;margin-top:2px}
+
+  .cmd{margin-top:26px;background:#11151b;color:#e9eef5;border-radius:14px;
+       padding:20px 28px;font:16px/1.72 ui-monospace,Consolas,monospace;
+       opacity:0;transform:translateY(14px);box-shadow:0 18px 44px rgba(17,21,27,.25)}
+  .cmd .c{color:#68727f}
+  .repo{margin-top:24px;font-size:31px;font-weight:700;color:#2A5CD6;opacity:0;
+        letter-spacing:-.4px}
+  .cta{margin-top:12px;font-size:16px;color:#6b7280;opacity:0}
+  .badge{margin-top:18px;font-size:14.5px;color:#7d8794;opacity:0}
+  .badge b{color:#5b6472;font-weight:600}
+</style>
+</head>
+<body>
+<div class="glow g1"></div><div class="glow g2"></div><div class="grid"></div>
+<div id="bubs"></div>
+
+<div class="scene" id="s1"><div class="inner">
+  <div id="hero"></div>
+  <div class="title" id="t1"></div>
+  <div class="sub" id="t1s">一个<b>记得你</b>的 Agent 插件</div>
+  <div class="tag" id="t1t">不是又一个桌宠</div>
+</div></div>
+
+<div class="scene" id="s2"><div class="inner">
+  <div class="h">聊得越久，越会撞上<em>两堵墙</em></div>
+  <div class="cards">
+    <div class="card" id="c1"><div class="x">✕</div>
+      <h3>它记不住</h3>
+      <p>今天的偏好，明天开个新会话就清零。<br>聊了一周，还在从头介绍自己。</p></div>
+    <div class="card" id="c2"><div class="x">✕</div>
+      <h3>它看不见</h3>
+      <p>得先截图发过去，它才知道你在说什么。<br>每次来回三句。</p></div>
+  </div>
+</div></div>
+
+<div class="scene" id="s3"><div class="inner">
+  <div class="h">换更聪明的模型，也解决不了<small>因为不是它笨，是记忆和感知放错了位置</small></div>
+  <div class="moves">
+    <div class="move" id="m1">
+      <div class="from"><s>记忆存在对话里</s></div>
+      <div class="arw">↓</div>
+      <div class="to">挪到模型外面</div>
+      <div class="note">磁盘上<b>人可读的 Markdown</b>，带权重和衰减<br>换模型只是换嗓子，不失忆</div>
+    </div>
+    <div class="move" id="m2">
+      <div class="from"><s>等你截图发过去</s></div>
+      <div class="arw">↓</div>
+      <div class="to">放回你自己的机器</div>
+      <div class="note">屏幕、摄像头、<b>她自己的浏览器</b><br>读前台窗口约 0 token</div>
+    </div>
+  </div>
+</div></div>
+
+<div class="scene" id="s4"><div class="inner">
+  <div class="h">装上之后，多四件事<small>一共 25 个工具，按需开，不用全给</small></div>
+  <div class="grid4">
+    <div class="cell" id="g1">
+      <svg viewBox="0 0 48 48" fill="none"><rect x="7" y="9" width="34" height="30" rx="6" stroke="#2A5CD6" stroke-width="2.6"/><path d="M15 19h18M15 26h12M15 33h8" stroke="#2A5CD6" stroke-width="2.6" stroke-linecap="round"/></svg>
+      <div><b>记得你</b><span>否决过什么、定过什么，都留得住</span></div></div>
+    <div class="cell" id="g2">
+      <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="14" stroke="#0E8F72" stroke-width="2.6"/><circle cx="24" cy="24" r="5.5" fill="#0E8F72"/><path d="M24 6v6M24 36v6M6 24h6M36 24h6" stroke="#0E8F72" stroke-width="2.6" stroke-linecap="round"/></svg>
+      <div><b>看得见</b><span>屏幕、摄像头，不用你截图</span></div></div>
+    <div class="cell" id="g3">
+      <svg viewBox="0 0 48 48" fill="none"><rect x="9" y="11" width="30" height="26" rx="6" stroke="#5B4BD6" stroke-width="2.6"/><path d="M20 19.5l9 5.5-9 5.5z" fill="#5B4BD6"/></svg>
+      <div><b>能自己刷</b><span>B站 / 抖音 / 小红书 / 快手</span></div></div>
+    <div class="cell" id="g4">
+      <svg viewBox="0 0 48 48" fill="none"><path d="M8 14a5 5 0 015-5h22a5 5 0 015 5v13a5 5 0 01-5 5H20l-8 7v-7h-1a5 5 0 01-5-5z" stroke="#C25E3A" stroke-width="2.6" stroke-linejoin="round"/><circle cx="18" cy="21" r="2" fill="#C25E3A"/><circle cx="25" cy="21" r="2" fill="#C25E3A"/><circle cx="32" cy="21" r="2" fill="#C25E3A"/></svg>
+      <div><b>能替你说话</b><span>起草消息和评论，发出前你点头</span></div></div>
+  </div>
+</div></div>
+
+<div class="scene" id="s5"><div class="inner">
+  <div class="h">细节是这么处理的<small>这三处最容易做成「看着能用，实际不敢用」</small></div>
+  <div class="three">
+    <div class="tri" id="d1">
+      <div class="n">记忆</div>
+      <div class="big">两层</div>
+      <h4>热的记人设，冷的记细节</h4>
+      <p>偏好走热层随时在手，细节进大库按需捞。<b>带权重和衰减</b>，久不用的自然变淡。</p>
+    </div>
+    <div class="tri" id="d2">
+      <div class="n">自己刷视频</div>
+      <div class="big">四道闸</div>
+      <h4>总开关 · 时段 · 单次 · 每日</h4>
+      <p>任一不合就不刷，跨午夜时段也认。<b>评论是另一套独立闸</b>，能刷不等于能说。</p>
+    </div>
+    <div class="tri" id="d3">
+      <div class="n">权限</div>
+      <div class="big">25 项</div>
+      <h4>逐项发钥匙</h4>
+      <p>没有审批通道的宿主一律<b>按拒绝处理</b>。不是装坏了，是故意的。</p>
+    </div>
+  </div>
+</div></div>
+
+<div class="scene" id="s6"><div class="inner">
+  <div class="h">它长什么样，你说了算<small>4 套配色 + 2 个角色包 · 换的时候不用重启</small></div>
+  <div class="pets">
+    <div class="pet" id="p1"><svg viewBox="0 0 132 128"></svg><i>深海蓝</i></div>
+    <div class="pet" id="p2"><svg viewBox="0 0 132 128"></svg><i>青绿</i></div>
+    <div class="pet" id="p3"><svg viewBox="0 0 132 128"></svg><i>陶土橙</i></div>
+    <div class="pet" id="p4"><svg viewBox="0 0 132 128"></svg><i>星紫</i></div>
+  </div>
+</div></div>
+
+<div class="scene" id="s7"><div class="inner">
+  <div class="h">把仓库地址丢给 Agent，它自己装</div>
+  <div class="cmd" id="cmdB">
+    <div class="c"># 一行就能开始</div>
+    <div>帮我装这个插件，按 INSTALL.md 走</div>
+    <div>装完跑一遍自检，缺什么告诉我</div>
+  </div>
+  <div class="repo" id="repoB">github.com/d1s3s/dsh-companion</div>
+  <div class="cta" id="ctaB">四步 · 约两分钟 · 装完会自己报告环境缺口</div>
+  <div class="badge" id="badgeB"><b>每一项权限单独发钥匙</b> · 随时能收回 · 代码 MIT</div>
+</div></div>
+
+<div class="bar" id="bar"></div>
+
+<script>
+/* ---------------------------------------------------------------- 鲸鱼 */
+const PAL=[
+ {b0:'#5C9BFF',b1:'#2A5CD6',e0:'#DCEBFF',e1:'#A8C8F5',fin:'#4A8AF0',line:'#1B3B6F'},
+ {b0:'#4ED6B4',b1:'#0E8F72',e0:'#D8FFF4',e1:'#9BE8D6',fin:'#2FBFA0',line:'#0B4A3C'},
+ {b0:'#E8A184',b1:'#C25E3A',e0:'#FFEDE4',e1:'#F3C6B2',fin:'#D98162',line:'#6B2F1B'},
+ {b0:'#9B94FF',b1:'#5B4BD6',e0:'#EEEBFF',e1:'#C4BCFA',fin:'#7A6EEF',line:'#2E2360'},
+];
+function whale(svg,p,uid){
+  svg.innerHTML=`
+   <defs>
+     <linearGradient id="b${uid}" x1="0" y1="0" x2="0" y2="1">
+       <stop offset="0%" stop-color="${p.b0}"/><stop offset="100%" stop-color="${p.b1}"/></linearGradient>
+     <linearGradient id="e${uid}" x1="0" y1="0" x2="0" y2="1">
+       <stop offset="0%" stop-color="${p.e0}"/><stop offset="100%" stop-color="${p.e1}"/></linearGradient>
+   </defs>
+   <ellipse cx="62" cy="114" rx="29" ry="5.5" fill="#000" opacity="0.12"/>
+   <g class="body">
+     <g class="tail"><path d="M92 66 C104 55 114 48 120 44 C115 56 115 64 120 74 C110 71 100 72 92 74 Z" fill="url(#b${uid})"/></g>
+     <ellipse cx="62" cy="70" rx="38" ry="28" fill="url(#b${uid})"/>
+     <ellipse cx="60" cy="81" rx="27" ry="14" fill="url(#e${uid})"/>
+     <path class="fin" d="M56 84 C50 94 44 99 38 100 C44 92 46 86 47 80 Z" fill="${p.fin}" opacity="0.95"/>
+     <g class="eye">
+       <ellipse cx="46" cy="62" rx="8.6" ry="9.6" fill="#fff"/>
+       <circle cx="47" cy="63" r="4.6" fill="#10203A"/>
+       <circle cx="48.9" cy="60.7" r="1.75" fill="#fff"/>
+     </g>
+     <path d="M34 74 Q40 79 46 74" fill="none" stroke="${p.line}" stroke-width="2.4" stroke-linecap="round" opacity="0.7"/>
+     <ellipse cx="33" cy="72" rx="6" ry="3.4" fill="#FF9BB6" opacity="0.35"/>
+   </g>`;
+}
+const hero=document.getElementById('hero');
+hero.innerHTML='<svg viewBox="0 0 132 128" width="286"></svg>';
+whale(hero.querySelector('svg'),PAL[0],'h');
+[['p1',0],['p2',1],['p3',2],['p4',3]].forEach(([id,i])=>
+  whale(document.getElementById(id).querySelector('svg'),PAL[i],i));
+
+function animateWhale(root,t,phase=0,amp=1){
+  if(!root) return;
+  const tail=root.querySelector('.tail');
+  if(tail) tail.setAttribute('transform',`rotate(${(Math.sin((t+phase)*3.1)*5.5*amp).toFixed(2)} 92 70)`);
+  const fin=root.querySelector('.fin');
+  if(fin) fin.setAttribute('transform',`rotate(${(Math.sin((t+phase)*3.1+1.1)*7*amp).toFixed(2)} 56 84)`);
+  const eye=root.querySelector('.eye');
+  if(eye){
+    const cyc=((t+phase)%3.2+3.2)%3.2;
+    let k=1;
+    if(cyc>2.94 && cyc<3.08) k=0.1; else if(cyc>=3.08) k=0.45;
+    eye.setAttribute('transform',`translate(0 ${(63*(1-k)).toFixed(2)}) scale(1 ${k.toFixed(3)}) translate(0 ${(-63*(1-k)).toFixed(2)})`);
+  }
+  root.style.transform=`translateY(${(Math.sin((t+phase)*2.1)*3*amp).toFixed(2)}px)`;
+}
+
+/* 气泡 */
+const bubBox=document.getElementById('bubs');
+const BUBS=[];
+for(let i=0;i<14;i++){
+  const d=document.createElement('div');
+  d.className='bub';
+  const r=4+Math.random()*11;
+  d.style.width=d.style.height=r*2+'px';
+  bubBox.appendChild(d);
+  BUBS.push({el:d, x:Math.random()*1280, y:Math.random()*720,
+             sp:8+Math.random()*16, sw:14+Math.random()*26, ph:Math.random()*6.28, op:.1+Math.random()*.14});
+}
+
+/* 标题逐字 */
+const t1=document.getElementById('t1');
+t1.innerHTML=[...'dsh-companion'].map(c=>`<span class="l">${c}</span>`).join('');
+const letters=[...t1.querySelectorAll('.l')];
+
+/* ---------------------------------------------------------------- 时间轴 */
+const clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v));
+const ease=t=>1-Math.pow(1-clamp(t),3);
+const seg=(t,a,b,fi=.45,fo=.4)=>{
+  if(t<=a||t>=b) return 0;
+  return Math.min(ease((t-a)/fi),1-ease((t-b+fo)/fo));
+};
+const rise=(t,a,d=.6)=>ease((t-a)/d);
+function show(el,p,dy=22){ if(!el) return;
+  el.style.opacity=p.toFixed(3);
+  el.style.transform=`translateY(${((1-p)*dy).toFixed(2)}px)`;
+}
+function pop(el,p){ if(!el) return;
+  el.style.opacity=p.toFixed(3);
+  el.style.transform=`scale(${(0.92+0.08*p).toFixed(3)})`;
+}
+
+const SCENES={
+  s1:[0.0,4.0],  s2:[4.0,10.2], s3:[10.2,15.6], s4:[15.6,21.0],
+  s5:[21.0,27.2], s6:[27.2,31.4], s7:[31.4,35.6],
+};
+window.TOTAL=35.6;
+
+window.setFrame=function(t){
+  // 气泡：缓慢上升 + 横向漂移，循环
+  for(const b of BUBS){
+    const y=((b.y - t*b.sp) % 760 + 760) % 760 - 40;
+    const x=b.x + Math.sin(t*0.5+b.ph)*b.sw;
+    b.el.style.transform=`translate(${x.toFixed(1)}px,${y.toFixed(1)}px)`;
+    b.el.style.opacity=b.op.toFixed(3);
+  }
+  document.getElementById('bar').style.width=(clamp(t/window.TOTAL)*1280).toFixed(1)+'px';
+
+  for(const [id,[a,b]] of Object.entries(SCENES)){
+    document.getElementById(id).style.opacity=seg(t,a,b,.45,.45).toFixed(3);
+  }
+
+  { // 1
+    const p=rise(t,0.05,0.9);
+    hero.style.opacity=p.toFixed(3);
+    animateWhale(hero.querySelector('svg'),t,0,1);
+    letters.forEach((l,i)=>{
+      const lp=rise(t,1.0+i*0.05,0.32);
+      l.style.opacity=lp.toFixed(3);
+      l.style.transform=`translateY(${((1-lp)*18).toFixed(1)}px)`;
+    });
+    show(document.getElementById('t1s'),rise(t,1.75,0.8),14);
+    show(document.getElementById('t1t'),rise(t,2.45,0.8),12);
+  }
+  { // 2
+    show(document.querySelector('#s2 .h'),rise(t,4.25,0.65));
+    show(document.getElementById('c1'),rise(t,4.85,0.7),28);
+    show(document.getElementById('c2'),rise(t,5.45,0.7),28);
+  }
+  { // 3
+    show(document.querySelector('#s3 .h'),rise(t,10.45,0.65));
+    show(document.getElementById('m1'),rise(t,11.05,0.7),24);
+    show(document.getElementById('m2'),rise(t,11.65,0.7),24);
+  }
+  { // 4
+    show(document.querySelector('#s4 .h'),rise(t,15.85,0.65));
+    ['g1','g2','g3','g4'].forEach((id,i)=>
+      show(document.getElementById(id),rise(t,16.35+i*0.22,0.6)));
+  }
+  { // 5
+    show(document.querySelector('#s5 .h'),rise(t,21.25,0.65));
+    ['d1','d2','d3'].forEach((id,i)=>
+      show(document.getElementById(id),rise(t,21.75+i*0.3,0.65)));
+  }
+  { // 6
+    show(document.querySelector('#s6 .h'),rise(t,27.45,0.65));
+    ['p1','p2','p3','p4'].forEach((id,i)=>{
+      const p=rise(t,27.95+i*0.2,0.7);
+      pop(document.getElementById(id),p);
+      animateWhale(document.getElementById(id).querySelector('svg'),t,i*0.7,0.8);
+    });
+  }
+  { // 7
+    show(document.querySelector('#s7 .h'),rise(t,31.65,0.65));
+    show(document.getElementById('cmdB'),rise(t,32.15,0.7),14);
+    show(document.getElementById('repoB'),rise(t,32.8,0.7),12);
+    show(document.getElementById('ctaB'),rise(t,33.15,0.7),10);
+    show(document.getElementById('badgeB'),rise(t,33.45,0.7),8);
+  }
+};
+
+window.setFrame(0);
+window.__ready=true;
+</script>
+</body>
+</html>

@@ -11,6 +11,10 @@ preview/
 # 客户端自带预览页（client/build-preview.mjs 的产物，内联 base64 图集）
 client/preview.html
 
+# 介绍片：1068 张中间帧和成片都不进库，用 node tools/intro/render.mjs 重新生成
+tools/intro/frames/
+tools/intro/intro.mp4
+
 # 运行时数据：权限、记忆、token 账本、浏览器的登录态
 # 这些是本机私密数据，永远不进仓库
 .dsh-companion/
