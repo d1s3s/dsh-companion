@@ -41,6 +41,8 @@
 
 ## 形象：六种可选，随时换
 
+![四套配色皮肤：深海蓝 / 青绿 / 陶土橙 / 星紫](docs/themes.png)
+
 ```bash
 companion_character action=list                  # 看全部
 companion_character action=use pack=theme-gpt    # 换，立刻生效
@@ -54,6 +56,8 @@ companion_character action=use pack=theme-gpt    # 换，立刻生效
 | `theme-qwen` 星紫（像通义千问的配色） | |
 
 **为什么是配色不是官方形象**：OpenAI / Anthropic / 阿里都是有法务的商业主体，复制它们的官方形象是商标问题——这和用社区角色不是一回事。这里借的是气质（青绿偏工程、陶土偏人文、星紫偏科技），不复制任何 logo。你自己的素材放进 `packs/` 就行，那些包优先级更高。
+
+想看全部形象长什么样：`npm run gallery` 生成 `preview/gallery.html`，图集原图、68 个动作各自的第一帧、四套配色并排一页，点图可放大。
 
 ## 接自己的模型
 
